@@ -22,14 +22,6 @@ public class WeatherClient {
 
 
       Response info = restTemplate.getForObject(String.format("http://api.weatherstack.com/current?access_key=%s&query=%s", accessKey, cityName), Response.class);
-      log.info("DUPA DUPA");
       log.info(info);
-   }
-
-
-
-   @EventListener(ApplicationReadyEvent.class)
-   public void getWeatherByCityNama(){
-   getWeatherByCityName("Radom");
    }
 }
