@@ -1,11 +1,9 @@
 package pl.sadowski.teaipracadomowatydzien5.exerc2.Client.Service;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import pl.sadowski.teaipracadomowatydzien5.exerc2.Client.Model.BasicWeatherInfo;
+import pl.sadowski.teaipracadomowatydzien5.exerc2.Api.Model.BasicWeatherInfo;
 import pl.sadowski.teaipracadomowatydzien5.exerc2.Client.Model.weatherStackAPI.Response;
 @Service
 public class WeatherService {

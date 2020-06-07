@@ -1,4 +1,4 @@
-package pl.sadowski.teaipracadomowatydzien5.exerc2.Client.Model;
+package pl.sadowski.teaipracadomowatydzien5.exerc2.Api.Model;
 
 import lombok.*;
 
