@@ -6,14 +6,14 @@ import java.util.List;
 @ToString
 public class BasicWeatherInfo {
 
-    private String city;
-    private Integer temperature;
-    private List<String> weatherIcons = null;
-    private Integer windSpeed;
-    private String windDir;
-    private Integer pressure;
-    private Integer humidity;
-    private Integer cloudcover;
+    public String city;
+    public Integer temperature;
+    public List<String> weatherIcons = null;
+    public Integer windSpeed;
+    public String windDir;
+    public Integer pressure;
+    public Integer humidity;
+    public Integer cloudcover;
 
 
     public BasicWeatherInfo(BasicWeatherInfoBuilder basicWeatherInfoBuilder){

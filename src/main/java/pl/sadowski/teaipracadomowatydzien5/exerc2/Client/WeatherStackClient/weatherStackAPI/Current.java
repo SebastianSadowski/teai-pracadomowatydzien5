@@ -1,5 +1,5 @@
 
-package pl.sadowski.teaipracadomowatydzien5.exerc2.Client.Model.weatherStackAPI;
+package pl.sadowski.teaipracadomowatydzien5.exerc2.Client.WeatherStackClient.weatherStackAPI;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,0 +1,10 @@
+div{
+  height: 300px;
+  width: auto;
+font-size: x-large;
+text-align: right;
+}
+div:hover{
+background-color: chocolate;
+}
+
